@@ -1,0 +1,74 @@
+:root {
+    --color-primary: #EC9A29;
+    --color-primary-light: #F8DCB6;
+    --color-primary-dark: #BA265D;
+    
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-5: #eee;
+    --color-grey-light-4: #ccc;
+
+    --color-grey-dark-4: #999;
+    --color-grey-dark-3: #777;
+    --color-grey-dark-1: #555;
+    --color-grey-dark-2: #333;
+    --color-grey-dark-5: #182024;
+    --color-grey-dark-6: #0a0e10;
+
+    --shadow-dark: 0 2 6 rgba(0,0,0,.3);
+    --shadow-light: 0 2 6 rgba(0,0,0,.06);
+    
+    --line: 1px solid var(--color-grey-light-3);
+
+}
+
+$bp-largest: 75em;      // 1200px
+$bp-large: 68.75em;     // 1100px
+$bp-medium: 56.25em;    // 900px
+$bp-small: 37.5em;      // 600px
+$bp-smallest: 31.25em;
+$bp-very-small: 27.5em;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    // THIS DEFINES WHAT 1REM IS
+    // 1REM = 10PX
+
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 56.25%;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 50%;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 43.75%;
+    }
+    
+}
+
+
+body {
+    // padding: 2rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    color: var(--color-grey-dark-1);
+    font-family: 'saira', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
