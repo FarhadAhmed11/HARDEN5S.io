@@ -129,7 +129,7 @@ body {
   height: 40rem;
   width: 100%;
   background-color: #fff;
-  background-image: linear-gradient(to bottom, rgba(236, 155, 41, 0.6), rgba(0, 0, 0, 0.801)), url(../IMG/cs4.jpg);
+  background-image: linear-gradient(to bottom, rgba(236, 155, 41, 0.6), rgba(0, 0, 0, 0.801)), url(../img/cs4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -354,7 +354,7 @@ body {
       background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%); }
     .updates__box--3 {
       background-color: #7f5a83;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.61)), url(../IMG/esl.png);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.61)), url(../img/esl.png);
       background-position: center; }
     .updates__box--4 {
       background-color: #166d3b;
