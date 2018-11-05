@@ -129,7 +129,8 @@ body {
   height: 40rem;
   width: 100%;
   background-color: #fff;
-  background-image: linear-gradient(to bottom, rgba(236, 155, 41, 0.6), rgba(0, 0, 0, 0.801)), url(../img/cs4.jpg);
+  background-image: linear-gradient(to bottom, rgba(165, 114, 42, 0.658), rgba(0, 0, 0, 0.801)), url(../img/cs4.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
